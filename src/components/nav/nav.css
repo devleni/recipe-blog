@@ -1,0 +1,41 @@
+nav {
+  transform: translateY(80px);
+  margin-top: -80px;
+}
+
+.nav__items {
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__links {
+  margin-left: auto;
+}
+
+.nav__item--left {
+  margin-right: auto;
+}
+
+.nav__item--link {
+  font-family: Muli, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.nav__item--link:hover {
+  color: lightsalmon;
+}
+
+.active {
+  color: lightsalmon;
+}
+
