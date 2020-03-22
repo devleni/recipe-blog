@@ -32,10 +32,10 @@ nav {
 }
 
 .nav__item--link:hover {
-  color: lightsalmon;
+  color: lightpink;
 }
 
 .active {
-  color: lightsalmon;
+  color: lightpink;
 }
 

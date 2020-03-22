@@ -3,4 +3,29 @@ body {
   margin: 0 auto;
   padding: 0 10%;
   max-width: 1200px;
+  font-family: Muli, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  color: white;
+}
+
+.btn__med {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: lightpink;
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.btn__med:hover {
+  filter: brightness(90%)
 }
