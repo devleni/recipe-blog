@@ -4,6 +4,7 @@ body {
   padding: 0 10%;
   max-width: 1200px;
   font-family: Muli, sans-serif;
+  text-shadow: 2px 2px #000000;
 }
 
 h1 {
