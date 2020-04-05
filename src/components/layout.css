@@ -3,8 +3,7 @@ body {
   margin: 0 auto;
   padding: 0 10%;
   max-width: 1200px;
-  font-family: Muli, sans-serif;
-  text-shadow: 2px 2px #000000;
+  font-family: Muli, sans-serif;  
 }
 
 h1 {
@@ -12,6 +11,7 @@ h1 {
   font-weight: 400;
   line-height: 50px;
   color: white;
+  text-shadow: 1px 1px #000000;
 }
 
 .btn__med {
@@ -28,5 +28,5 @@ h1 {
 }
 
 .btn__med:hover {
-  filter: brightness(90%)
+  filter: brightness(90%);
 }
