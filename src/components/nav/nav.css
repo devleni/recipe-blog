@@ -4,7 +4,6 @@ nav {
 }
 
 .nav__items {
-  background-color: transparent;
   border: none;
   height: 40px;
   margin-top: 40px;
@@ -29,13 +28,14 @@ nav {
   transition: all 0.3s ease 0s;
   text-decoration: none;
   margin-left: 40px;
+  text-shadow: 1px 1px #000000;
 }
 
 .nav__item--link:hover {
-  color: lightpink;
+  color: #ED5565;
 }
 
 .active {
-  color: lightpink;
+  color: #ED5565;
 }
 
